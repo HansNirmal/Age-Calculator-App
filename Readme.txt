@@ -1,0 +1,1 @@
+This is a practice project done based on a challenge on www.frontendmentor.io
