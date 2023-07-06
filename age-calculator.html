@@ -45,7 +45,7 @@
 
 
 
-    /* Internal CSS styles go here */
+    /* Internal CSS styles */
     .error {
       color: red;
       font-family: Poppins,Arial, Helvetica, sans-serif;
@@ -237,7 +237,7 @@
 
 <script>
   document.getElementById('ageCalculatorForm').addEventListener('submit', function (e) {
-    e.preventDefault(); // Prevent form submission
+    e.preventDefault();
 
     // Clear previous error messages
     document.getElementById('dateError').textContent = '';
@@ -249,7 +249,7 @@
     const month = parseInt(document.getElementById('month').value);
     const year = parseInt(document.getElementById('year').value);
 
-    // Validate input
+    // Validate if Field is Empty or Not
     const currentYear = new Date().getFullYear();
     if (!date || !month || !year) {
 
@@ -278,6 +278,7 @@
       return;
     }
 
+    // Validate if input data is accurate
     if ((date < 1 || date > 31) || (month < 1 || month > 12) || (year < 1900 || year > currentYear)) {
 
       if (date < 1 || date > 31) {
