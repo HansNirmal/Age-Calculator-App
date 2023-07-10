@@ -1,0 +1,187 @@
+/* @font-face rules for custom fonts */
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Italic.ttf') format('truetype');
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+
+
+  /* Internal CSS styles */
+  .error {
+    color: red;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 50%;
+  }
+
+
+  .input-field-column-date.error label,
+  .input-field-column-date.error .input-field {
+    color: red;
+    border-color: red;
+    font-style: normal;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:10%;
+   
+  }
+
+  .input-field-column-month.error label,
+  .input-field-column-month.error .input-field {
+    color: red;
+    border-color: red;
+    font-style: normal;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:10%;
+ 
+  }
+
+  .input-field-column-year.error label,
+  .input-field-column-year.error .input-field {
+    color: red;
+    border-color: red;
+    font-style: normal;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:10%;
+   
+  }
+
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:10%;
+  }
+
+  input {
+    border-width: thin;
+    margin-bottom: 5px;
+    width:10px;
+    height: 15px;
+    border-radius: 7%;
+   font-family: Poppins,Arial, Helvetica, sans-serif;
+   font-size: 50%;
+   font-weight: bold;
+
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-radius: 5% 5% 30% 5%;   }
+
+  .output {
+    color: purple;
+  }
+
+  .input-row{
+    display: flex;
+    align-items:left;
+
+  }
+
+  .input-field-column-date{
+    display:flex;
+    flex-direction: column;
+  }
+
+  
+  .input-field-column-month{
+    display:flex;
+    flex-direction: column;
+  }
+
+  
+  .input-field-column-year{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .input-field{
+    width: 50px;
+    margin-right: 20px ;
+
+  }
+
+  .submit-button {
+    background-color: initial;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+
+  .submit-button.clicked {
+    background-color: purple;
+  }
+
+  .button-row {
+    display: flex;
+    align-items: center;
+  }
+
+  .button-row hr {
+    flex-grow: 1;
+    }
+
+  #output{
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:x-large;
+  }
+
+
+  .output-para{
+    margin: auto;
+
+  }
